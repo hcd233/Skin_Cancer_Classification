@@ -4,7 +4,7 @@
 
 这是一个用于训练图像分类模型的代码。在运行代码之前，用户需要安装以下依赖库：argparse, os, pandas, numpy, PIL, datasets, torchvision, tqdm和transformers。用户还需要从Hugging Face上下载所需的预训练模型。
 
-###参数说明
+### 参数说明
 
 - `--metadata_path`：metadata文件的路径。默认为"./archive/HAM10000_metadata.csv"。
 - `--images_dir`：图像文件夹的路径。默认为"./archive/HAM10000_images/"。
